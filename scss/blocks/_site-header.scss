@@ -1,0 +1,28 @@
+.site-header {
+    padding-bottom: 50px;
+}
+
+.site-header__nav {
+    display: flex;
+    flex-direction: column-reverse;
+    vertical-align: bottom;
+    width: 1350px;
+    height: 250px;
+    background-image: url(https://picsum.photos/1350/250);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: gray;
+}
+
+.site-header__content {
+    margin: 0;
+    text-align: end;
+    color: #fff;
+}
+
+@include breakpoint-down(325px) {
+    .site-header__content {
+        text-align: start;
+    }
+}

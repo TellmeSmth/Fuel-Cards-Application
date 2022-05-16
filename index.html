@@ -1,13 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>58</title>
+  <title>Fuel Cards</title>
+  <link rel="stylesheet" href="css/main.min.css">
 </head>
+
 <body>
+  <header class="site-header">
+    <nav class="site-header__nav container">
+      <h2 class="site-header__content">
+        Fuel Cards Application
+      </h2>
+    </nav>
+  </header>
 
+  <main class="site-main">
+    <section class="form-section container">
+      <form action="https://echo.htmlacademy.ru" class="form-section__form-text" target="_blank">
+        <label class="form-section__label-text" for="type-text">
+          <h2 class="form-section__heading">
+            Sameday Logistics
+          </h2>
+          <input class="form-section__input-text" type="text" required id="type-text"
+            placeholder="Fuel Cards Application" name="user_name">
+        </label>
 
+        <label class="form-section__label-phone" for="phoneNumber">
+          <h3 class="form-section__label-phone-heading">
+            Main phone number
+          </h3>
+          <input class="form-section__input-phone" required id="phoneNumber" type="tel" name="main_number"
+            placeholder="Enter a number">
+        </label>
+
+        <label class="form-section__label-tel" for="dotNumber">
+          <h3 class="form-section__label-tel-heading">
+            MC or DOT Number
+          </h3>
+          <input class="form-section__input-tel" required id="dotNumber" type="tel" name="DOT_number"
+            placeholder="Enter a DOT number">
+        </label>
+
+        <div class="form-section__label-wrapper">
+          <label class="form-section__label-trucks" for="trucks">
+            <h3 class="form-section__label-trucks-heading">
+              Number of Trucks
+            </h3>
+            <select class="form-section__select-trucks" required name="cuunt" id="trucks">
+              <option value="number"></option>
+              <option value="number">1</option>
+              <option value="number">2</option>
+              <option value="number">3</option>
+              <option value="number">4</option>
+              <option value="number">5</option>
+              <option value="number">6</option>
+              <option value="number">7</option>
+              <option value="number">8</option>
+              <option value="number">9</option>
+              <option value="number">10</option>
+              <option value="number">11</option>
+              <option value="number">12</option>
+              <option value="number">13</option>
+              <option value="number">14</option>
+              <option value="number">15</option>
+              <option value="number">16</option>
+              <option value="number">17</option>
+              <option value="number">18</option>
+              <option value="number">19</option>
+              <option value="number">20</option>
+              <option value="number">21</option>
+              <option value="number">22</option>
+              <option value="number">23</option>
+              <option value="number">24</option>
+              <option value="number">25</option>
+              <option value="number">26</option>
+              <option value="number">27</option>
+              <option value="number">28</option>
+              <option value="number">29</option>
+              <option value="number">30</option>
+            </select>
+          </label>
+
+          <label class="form-section__label-requested" for="requested">
+            <h3 class="form-section__label-requested-heading">
+              Fuel Cards Requested
+            </h3>
+            <select class="form-section__select-requested" required name="count" id="requested">
+              <option value="number"></option>
+              <option value="number">1</option>
+              <option value="number">2</option>
+              <option value="number">3</option>
+              <option value="number">4</option>
+              <option value="number">5</option>
+              <option value="number">6</option>
+              <option value="number">7</option>
+              <option value="number">8</option>
+              <option value="number">9</option>
+              <option value="number">10</option>
+              <option value="number">11</option>
+              <option value="number">12</option>
+              <option value="number">13</option>
+              <option value="number">14</option>
+              <option value="number">15</option>
+              <option value="number">16</option>
+              <option value="number">17</option>
+              <option value="number">18</option>
+              <option value="number">19</option>
+              <option value="number">20</option>
+              <option value="number">21</option>
+              <option value="number">22</option>
+              <option value="number">23</option>
+              <option value="number">24</option>
+              <option value="number">25</option>
+              <option value="number">26</option>
+              <option value="number">27</option>
+              <option value="number">28</option>
+              <option value="number">29</option>
+              <option value="number">30</option>
+            </select>
+          </label>
+        </div>
+
+        <label class="form-section__label-email" for="email">
+          <h3 class="form-section__label-email-heading">
+            Mailing Adress:
+            <input class="form-section__input-email" type="email" required id="email" placeholder="Enter your email"
+              name="user_email">
+          </h3>
+        </label>
+
+        <label class="form-section__label-mail" for="mail">
+          <h3 class="form-section__label-mail-heading">
+            Address line 2:
+            <input class="form-section__input-mail" type="email" required id="mail" placeholder="Enter another one"
+              name="user_second_email">
+          </h3>
+        </label>
+
+        <div class="form-section__label-wrapp">
+          <label for="city">
+            <h3 class="form-section__label-city-heading">
+              City:
+            </h3>
+            <input class="form-section__input-city" type="text" required id="city" placeholder="Choose a Country"
+              name="user_location">
+          </label>
+
+          <label for="state">
+            <h3 class="form-section__label-state-heading">
+              State:
+            </h3>
+            <select class="form-section__state-select" required name="state of country" id="state">
+              <option value="selected"></option>
+              <option value="Alabama">Alabama</option>
+              <option value="Alaska">Alaska</option>
+              <option value="Arizona">Arizona</option>
+              <option value="Arkansas">Arkansas</option>
+              <option value="Colifornia">Colifornia</option>
+            </select>
+          </label>
+
+          <label for="code">
+            <h3 class="form-section__label-code-heading">
+              Zip-Code:
+            </h3>
+            <input class="form-section__input-code" type="text" required id="code" placeholder="Enter a zip-code"
+              name="user_zip-code">
+          </label>
+        </div>
+
+        <div class="form-section-slogan-wrapper">
+          <h3 class="form-section-slogan container">Primarry Billing Contact</h3>
+        </div>
+
+        <div class="form-section__data-wrapper">
+          <label class="form-section__label-data" for="firstName">
+            <h3 class="form-section__data-heading">
+              First Name
+            </h3>
+            <input class="form-section__input-data" type="text" required id="firstName"
+              placeholder="Enter your first name" name="user__firstname">
+          </label>
+
+          <label class="form-section__label-data" for="lastName">
+            <h3 class="form-section__data-heading">
+              Last Name
+            </h3>
+            <input class="form-section__input-data" type="text" required id="lastName"
+              placeholder="Enter your last name" name="lastname">
+          </label>
+        </div>
+
+        <label class="form-section__mail-label" for="EmailAdress">
+          <h3 class="form-section__mail-label-heading">
+            Email Address
+          </h3>
+          <input class="form-section__mail-input" type="email" required id="EmailAdress"
+            placeholder="Enter your Email Adress" name="user_Email_Adress">
+        </label>
+
+        <label class="form-section__mail-label" for="mailAdress">
+          <h3 class="form-section__mail-label-heading">
+            Email Address
+          </h3>
+          <input class="form-section__mail-input" type="email" required id="mailAdress"
+            placeholder="Enter your Email Adress" name="user_Email_Adress">
+        </label>
+
+        <label class="form-section__tel-label" for="userTel">
+          <h3 class="form-section__tel-label-heading">
+            Phone Number
+          </h3>
+          <input class="form-section__tel-input" type="tel" required id="userTel" placeholder="Enter a Phone Number">
+        </label>
+
+        <label class="form-section-label-color" for="color">
+          <h3 class="form-section-label-color-heading">
+            Signature
+          </h3>
+          <input class="form-section-input-color" type="color" required id="color">
+        </label>
+
+        <div class="form-section-reset-wrapper">
+          <button class="form-section-reset" type="reset">
+            Clear
+          </button>
+        </div>
+      </form>
+
+      <div class="form-section__submit-wrapper">
+        <button class="form-section__submit" type="submit">Submit</button>
+      </div>
+    </section>
+  </main>
 </body>
+
 </html>
